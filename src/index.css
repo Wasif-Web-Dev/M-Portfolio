@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "HN-Light";
+    src: url("../src/assets/fonts/HelveticaNeueCyr-Light.ttf") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "HN-Roman";
+    src: url("../src/assets/fonts/HelveticaNeueCyr-Roman.ttf") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
