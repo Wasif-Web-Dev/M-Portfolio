@@ -10,7 +10,7 @@ const App = () => {
 
             <Routes>
                 {/* <Route path="/" element={<Nav />} /> */}
-                {/* <Route path="/" element={<Hero />} /> */}
+                <Route path="/" element={<Hero />} />
             </Routes>
         </>
     );
