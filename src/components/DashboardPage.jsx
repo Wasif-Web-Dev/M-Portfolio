@@ -6,7 +6,7 @@ const DashboardPage = () => {
     const {dashboardName} = useParams();
 
     return (
-        <div className="container mx-auto py-8 pt-64">
+        <div className="container mx-auto py-8 pt-64 mt-[16vh]">
             <h1 className="text-2xl font-bold text-center mb-4">{dashboardName.replace(/Dashboard/g, " ")}</h1>
             <TableauEmbed dashboardName={dashboardName} />
         </div>

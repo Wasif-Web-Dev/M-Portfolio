@@ -12,7 +12,7 @@ import BangladeshDataTable from "./BangladeshDataTable";
 
 const App = () => {
     return (
-        <>
+        <div className="overflow-hidden w-full h-full">
             {/* <Nav /> */}
             <Navbar />
             <Routes>
@@ -23,7 +23,7 @@ const App = () => {
             </Routes>
 
             <Footer />
-        </>
+        </div>
     );
 };
 

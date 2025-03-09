@@ -11,7 +11,7 @@ const Contact = () => {
         setStatus(null);
 
         const formData = new FormData(event.target);
-        formData.append("access_key", "6d91be48-dd60-470e-8d5f-08df8fb9d21e");
+        formData.append("access_key", "217bdb30-174b-451b-912f-f7f77a2e3ece");
 
         const object = Object.fromEntries(formData);
         const json = JSON.stringify(object);
@@ -50,7 +50,9 @@ const Contact = () => {
                     <h1 className="text-3xl font-bold text-white">Contact Us</h1>
                     <div className="flex items-center space-x-3">
                         <FaMapMarkerAlt className="text-2xl text-white" />
-                        <p className="text-white text-lg">65, Bir Uttam AK Khandakar Road, Mohakhali, Dhaka 1212</p>
+                        <p className="text-white text-lg max-md:text-left">
+                            65, Bir Uttam AK Khandakar Road, Mohakhali, Dhaka 1212
+                        </p>
                     </div>
                     <div className="flex items-center space-x-3">
                         <FaPhone className="text-2xl text-white" />
@@ -59,7 +61,7 @@ const Contact = () => {
                     <div className="flex items-center space-x-3">
                         <FaEnvelope className="text-2xl text-white" />
                         <a href="mailto:marwan.rashid@gmail.com" className="text-white text-lg underline">
-                            marwan.rashid@gmail.com
+                        saadman.faisal@bracu.ac.bd
                         </a>
                     </div>
                     <div className="flex items-center space-x-3">
